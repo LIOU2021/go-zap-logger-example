@@ -28,7 +28,7 @@ func Init() {
 		LevelKey:    "level",
 		TimeKey:     "time",
 		MessageKey:  "message",
-		NameKey:     "name",
+		NameKey:     "name", // 可以放自定义x-api-id
 		CallerKey:   "caller",
 		FunctionKey: "func",
 		// StacktraceKey: "trace",
