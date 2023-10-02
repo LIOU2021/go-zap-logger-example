@@ -1,0 +1,5 @@
+{"level":"debug","time":"2023-10-02T17:16:15.136+0800","caller":"go-zap-logger-example/main.go:14","func":"main.main","message":"hello world"}
+{"level":"info","time":"2023-10-02T17:16:15.136+0800","caller":"go-zap-logger-example/main.go:15","func":"main.main","message":"hello world"}
+{"level":"error","time":"2023-10-02T17:16:15.136+0800","caller":"go-zap-logger-example/main.go:16","func":"main.main","message":"hello world"}
+{"level":"info","time":"2023-10-02T17:16:15.136+0800","caller":"internal/hi.go:6","func":"example/internal.Hi","message":"hi hello"}
+{"level":"info","time":"2023-10-02T17:16:15.136+0800","name":"is echo","caller":"internal/echo.go:6","func":"example/internal.Echo","message":"hi~~~ 123456"}
