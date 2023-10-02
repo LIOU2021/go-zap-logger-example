@@ -1,5 +1,9 @@
-{"level":"debug","time":"2023-10-02T17:16:15.136+0800","caller":"go-zap-logger-example/main.go:14","func":"main.main","message":"hello world"}
-{"level":"info","time":"2023-10-02T17:16:15.136+0800","caller":"go-zap-logger-example/main.go:15","func":"main.main","message":"hello world"}
-{"level":"error","time":"2023-10-02T17:16:15.136+0800","caller":"go-zap-logger-example/main.go:16","func":"main.main","message":"hello world"}
-{"level":"info","time":"2023-10-02T17:16:15.136+0800","caller":"internal/hi.go:6","func":"example/internal.Hi","message":"hi hello"}
-{"level":"info","time":"2023-10-02T17:16:15.136+0800","name":"is echo","caller":"internal/echo.go:6","func":"example/internal.Echo","message":"hi~~~ 123456"}
+{"level":"debug","time":"2023-10-02T17:32:14.520+0800","caller":"go-zap-logger-example/main.go:14","func":"main.main","message":"hello world"}
+{"level":"info","time":"2023-10-02T17:32:14.521+0800","caller":"go-zap-logger-example/main.go:15","func":"main.main","message":"hello world"}
+{"level":"error","time":"2023-10-02T17:32:14.521+0800","caller":"go-zap-logger-example/main.go:16","func":"main.main","message":"hello world"}
+{"level":"info","time":"2023-10-02T17:32:14.521+0800","caller":"internal/hi.go:6","func":"example/internal.Hi","message":"hi hello"}
+{"level":"info","time":"2023-10-02T17:32:14.521+0800","name":"is echo","caller":"internal/echo.go:6","func":"example/internal.Echo","message":"hi~~~ 123456"}
+{"level":"info","time":"2023-10-02T17:32:14.521+0800","name":"2dbe69f5-c11e-4bfd-823e-93b69426cfdc","caller":"internal/run.go:14","func":"example/internal.Run","message":"test | x-api-id: 2dbe69f5-c11e-4bfd-823e-93b69426cfdc"}
+{"level":"info","time":"2023-10-02T17:32:15.522+0800","name":"dffcb2c9-8c86-47c4-9a87-af630ad26d5d","caller":"internal/run.go:14","func":"example/internal.Run","message":"test | x-api-id: dffcb2c9-8c86-47c4-9a87-af630ad26d5d"}
+{"level":"info","time":"2023-10-02T17:32:16.522+0800","name":"ae095284-d8d7-44df-89e0-c209861cbb00","caller":"internal/run.go:14","func":"example/internal.Run","message":"test | x-api-id: ae095284-d8d7-44df-89e0-c209861cbb00"}
+{"level":"info","time":"2023-10-02T17:32:17.523+0800","name":"9b0f6e45-7ae5-468f-81f5-da861b6219fd","caller":"internal/run.go:14","func":"example/internal.Run","message":"test | x-api-id: 9b0f6e45-7ae5-468f-81f5-da861b6219fd"}

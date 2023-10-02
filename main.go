@@ -17,4 +17,6 @@ func main() {
 
 	internal.Hi()
 	internal.Echo()
+
+	internal.Run()
 }

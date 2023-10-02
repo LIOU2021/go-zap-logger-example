@@ -17,10 +17,10 @@ func MyCaller(caller zapcore.EntryCaller, enc zapcore.PrimitiveArrayEncoder) {
 func Init() {
 	lumberJackLogger := &lumberjack.Logger{
 		Filename:   "server.log",
-		MaxSize:    1, // 单一档案最大几M
-		MaxBackups: 3, // 最多保留几份
-		MaxAge:     1, // 最多保留几天
-		Compress:   true,
+		MaxSize:    1,    // 单一档案最大几M
+		MaxBackups: 3,    // 最多保留几份
+		MaxAge:     2,    // 最多保留几天
+		Compress:   true, // 压缩成gz
 	}
 
 	writeSyncer := zapcore.AddSync(lumberJackLogger)
